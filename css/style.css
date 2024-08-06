@@ -1,0 +1,96 @@
+body {
+    font-family: cursive;
+    background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff90;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(60, 60, 60);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(60, 60, 60);
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.485);
+    border: 1px solid rgb(101, 101, 101);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.485);
+    border: 1px solid rgb(101, 101, 101);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.485);
+    border: 1px solid rgb(101, 101, 101);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ff0066;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #570348;
+}
+
+h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    text-align: left;
+}
