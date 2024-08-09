@@ -19,16 +19,13 @@ button.addEventListener("click", (event) => {
     <button class="excluir">Excluir</button>
     </li>`;
 
-    /* Condição */ 
     if (inputNameValue, inputEmailValue, inputTelefoneValue === "") {
         alert("Preencha o campo vazio");
         return false;
     }
 
-    /*Incluindo itens no HTML*/
     lista.innerHTML += templateHTML;
 
-    /* Limpando meu campo */
     nome.value = "";
     email.value = "";
     telefone.value = "";
